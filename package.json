@@ -1,0 +1,15 @@
+
+  "name": "postman_jenkin",
+  "version": "1.0.0",
+  "description": "Project for storing Postman test", 
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-test-qa": "newman run test/jsonPlaceHolder.postman_collection.json"
+  },
+  "author": "Onyekachi Jasper-Duruzor",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
