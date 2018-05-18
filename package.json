@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-qa": "newman run test/jsonPlaceHolder.postman_collection.json"
+    "api-test-qa": "newman run test/jsonPlaceHolder.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "author": "Onyekachi Jasper-Duruzor",
   "dependencies": {
